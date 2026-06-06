@@ -4,7 +4,7 @@ import ProductList from "@/components/shared/product/product-list"
 const Home = async () => {
   return ( 
     <div>
-      <h1>Welcome to the Home Page</h1>
+      <h1>Home Page</h1>
       <ProductList data={SampleData.products} title="Featured Products" />
     </div>
    );
